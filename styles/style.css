@@ -1,0 +1,300 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #1e1e1e;
+}
+
+nav {
+  height: 70px;
+  display: flex;
+  padding: 20px 36px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.gray {
+  color: #918e9b;
+}
+
+.nav--logo {
+  max-width: 100px;
+}
+
+section {
+  padding: 20px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero--photo {
+  max-width: 400px;
+  align-self: center;
+}
+
+.hero--header {
+  margin-bottom: 16px;
+}
+
+.hero--text {
+  margin-top: 0;
+}
+
+.cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.card {
+  width: 201px;
+  height: 305px;
+  font-size: 12px;
+  flex: none; /* ADD */
+  display: flex; /* ADD */
+  flex-direction: column; /* ADD */
+  position: relative;
+  background-color: #111111;
+  color: #fafafa;
+  padding: 4px 4px 8px;
+  border-radius: 8px;
+  /* isolation: isolate; */
+  /* align-items: flex-start; */
+  /* order: 0; */
+  /* flex-grow: 0; */
+}
+
+.card--image {
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 9px;
+  height: 193px;
+}
+
+/* ADD */
+.card--title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card--stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.green {
+  color: #19ed7b;
+}
+
+.card--badge {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1px 6px;
+  gap: 4px;
+  position: absolute;
+  width: 69px;
+  height: 22px;
+  right: 8px;
+  top: 171px;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(3px);
+  border-radius: 31px;
+}
+
+.card--text {
+  padding: 4px;
+}
+
+.price {
+  margin-left: auto;
+  padding-right: 4px;
+}
+
+.highlight {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+  gap: 24px;
+
+  width: 201px;
+  height: 148px;
+
+  /* Cont/Card/OnSurface */
+
+  background: #111111;
+  border-radius: 16px;
+}
+
+.highlight--image {
+  width: 52px;
+  height: 52px;
+
+  border-radius: 8px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.highlight--upper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+
+  width: 181px;
+  height: 56px;
+}
+
+.upper-texts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+
+  width: 85px;
+  height: 56px;
+}
+
+.highlight--title {
+  font-weight: 500;
+  font-size: 16.5px;
+  line-height: 20px;
+  margin: 0;
+  color: #fafafa;
+  font-family: "Sharp Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  width: 118px;
+  height: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.highlight--status {
+  width: 69px;
+  height: 20px;
+  margin: 0;
+  padding-left: 10px;
+  padding-top: 12px;
+  font-family: "Sharp Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #44ffc8;
+}
+
+.hodl--true {
+  color: #4bdfff;
+}
+
+.hodl--false {
+  color: #ffc148;
+}
+
+.highlight--info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  font-size: 12px;
+  width: 181px;
+  height: 48px;
+  color: #fafafa;
+}
+
+.highlight--price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  width: 181px;
+  height: 20px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+highlight--xp {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  width: 181px;
+  height: 20px;
+
+  flex: none;
+  order: 1;
+}
+
+.highlight--purchase {
+  margin-left: auto;
+}
+
+.highlight--bg-- {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+
+  /* Activities/Mint_10% */
+
+  background: rgba(11, 241, 173, 0.1);
+  filter: blur(25px);
+  border-radius: 0 0 100px 0;
+}
+
+.highlight--bg--hodl--true {
+  opacity: 0.81;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+
+  /* Activities/Mint_10% */
+
+  background: rgba(37, 181, 213, 0.1);
+  filter: blur(25px);
+  border-radius: 0 0 100px 0;
+}
+
+.highlight--bg--hodl--false {
+  opacity: 0.81;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+
+  /* Activities/Mint_10% */
+
+  background: rgba(248, 169, 16, 0.1);
+  filter: blur(25px);
+  border-radius: 0 0 100px 0;
+}
