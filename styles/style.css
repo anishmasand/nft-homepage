@@ -566,3 +566,15 @@ top--details {
 .sub {
   color: #fafafa;
 }
+
+.page {
+  display: flex;
+  flex-direction: row;
+}
+
+.rhs {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+}

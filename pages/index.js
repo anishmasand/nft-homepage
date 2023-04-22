@@ -1,13 +1,7 @@
-import Highlights from "@/components/Highlights";
+import Page from "@/components/Page";
 import Cards from "/components/Cards";
 import Profiles from "/components/Profiles";
 
 export default function Home() {
-  return (
-    <>
-      <Profiles />
-      <Highlights />
-      <Cards />
-    </>
-  );
+  return <Page />;
 }
