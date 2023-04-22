@@ -298,3 +298,271 @@ highlight--xp {
   filter: blur(25px);
   border-radius: 0 0 100px 0;
 }
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px 16px 24px;
+  gap: 29px;
+
+  position: relative;
+  width: 292px;
+  height: 640px;
+
+  background: #111111;
+  border-radius: 16px;
+}
+
+.profile--sec1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+
+  width: 221.01px;
+  height: 116px;
+}
+
+.sec1--top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 4px;
+
+  width: 84.01px;
+  height: 116px;
+}
+
+.img--level {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;
+  gap: 8px;
+
+  width: 47px;
+  height: 28px;
+
+  /* Activities/Sold_10% */
+
+  background: rgba(248, 169, 16, 0.1);
+  border-radius: 44px;
+}
+
+.level {
+  margin: 0;
+  font-family: "Sharp Grotesk";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 100%;
+  color: #ffc148;
+}
+
+top--details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 2px;
+
+  width: 125px;
+  height: 54px;
+}
+
+.details--username {
+  margin: 0;
+  font-family: "Sharp Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 32px;
+  color: #ffffff;
+}
+
+.details--tid {
+  margin: 0;
+  font-family: "Sharp Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #a2a2a2;
+}
+
+.profile--sec2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  width: 174px;
+  height: 32px;
+}
+
+.twitter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 8px;
+  gap: 8px;
+  width: 126px;
+  height: 32px;
+  background: #1a1a1a;
+  border-radius: 24px;
+}
+
+.twitter-username {
+  font-family: "Sharp Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  /* identical to box height, or 167% */
+
+  /* Text/Medium */
+
+  color: #a2a2a2;
+}
+
+.web {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 4px;
+  gap: 8px;
+
+  width: 32px;
+  height: 32px;
+
+  /* Cont/Card/OnSurface1 */
+
+  background: #1a1a1a;
+  border-radius: 24px;
+}
+
+.profile--sec3 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 170%;
+  color: #a2a2a2;
+  padding-right: 20px;
+}
+
+.sec4--heading {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #a2a2a2;
+}
+
+.sec4--allimgs {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+
+  width: 260px;
+  height: 48px;
+}
+
+.sec4--img {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+}
+
+.sec5 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-basis: 100%;
+  padding: 0px;
+  gap: 8px;
+
+  width: 100%;
+}
+
+.sec5-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-basis: 100%;
+  padding: 0px;
+  gap: 8px;
+
+  width: 260px;
+  height: 100px;
+}
+.sec5-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-basis: 100%;
+  padding: 0px;
+  gap: 8px;
+
+  width: 260px;
+  height: 100px;
+}
+.sec5-s {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.category {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 6px 10px;
+  gap: 8px;
+
+  border: 1px solid #1a1a1a;
+  border-radius: 40px;
+  font-size: 12px;
+
+  color: #a2a2a2;
+}
+
+.category-text {
+  margin: 0;
+}
+
+.category-yellow {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 6px 10px;
+  gap: 8px;
+
+  border: 1px solid #ffc148;
+  border-radius: 40px;
+  font-size: 12px;
+
+  color: #ffc148;
+}
+
+.sec6 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  width: 260px;
+  height: 44px;
+
+  /* Text/Medium */
+
+  border: 1px solid #a2a2a2;
+  border-radius: 24px;
+}
+
+.sub {
+  color: #fafafa;
+}

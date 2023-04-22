@@ -7,7 +7,7 @@ export default function Highlights() {
   });
 
   return (
-    <div>
+    <div className="Highlights">
       <section className="cards-list">{highlights}</section>
     </div>
   );

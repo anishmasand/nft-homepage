@@ -1,7 +1,13 @@
 import Highlights from "@/components/Highlights";
 import Cards from "/components/Cards";
-import Profile from "/components/Profile";
+import Profiles from "/components/Profiles";
 
 export default function Home() {
-  return <Highlights />;
+  return (
+    <>
+      <Profiles />
+      <Highlights />
+      <Cards />
+    </>
+  );
 }
